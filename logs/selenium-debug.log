@@ -1,0 +1,653 @@
+17:33:43.629 INFO - Launching a standalone Selenium Server
+17:33:43.660 INFO - Java: Oracle Corporation 25.101-b13
+17:33:43.660 INFO - OS: Mac OS X 10.11.6 x86_64
+17:33:43.671 INFO - v2.53.1, with Core v2.53.1. Built from revision a36b8b1
+17:33:43.727 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform MAC
+17:33:43.728 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform MAC
+17:33:43.728 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+17:33:43.728 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+17:33:43.730 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
+17:33:43.730 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
+17:33:43.781 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+17:33:43.781 INFO - Selenium Server is up and running
+17:33:44.047 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, elementScrollBehavior=1, name=Shipping Cost Edge Cases, browserName=firefox, javascriptEnabled=true, platform=ANY}]])
+17:33:44.056 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, elementScrollBehavior=1, name=Shipping Cost Edge Cases, browserName=firefox, javascriptEnabled=true, platform=ANY}]
+17:33:46.605 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, elementScrollBehavior=1, name=Shipping Cost Edge Cases, browserName=firefox, javascriptEnabled=true, platform=ANY}]]
+17:33:46.622 INFO - Executing: [get: https://www.bol.com/])
+17:33:48.620 INFO - Done: [get: https://www.bol.com/]
+17:33:48.634 INFO - Executing: [find elements: By.cssSelector: body])
+17:33:49.361 INFO - Done: [find elements: By.cssSelector: body]
+17:33:49.370 INFO - Executing: [is displayed: 0 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: body]])
+17:33:49.593 INFO - Done: [is displayed: 0 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: body]]
+17:33:49.600 INFO - Executing: [find elements: By.cssSelector: head])
+17:33:49.608 INFO - Done: [find elements: By.cssSelector: head]
+17:33:49.612 INFO - Executing: [get title])
+17:33:49.624 INFO - Done: [get title]
+17:33:49.629 INFO - Executing: [find elements: By.cssSelector: .main-logo__link.omniture_main_logo])
+17:33:49.638 INFO - Done: [find elements: By.cssSelector: .main-logo__link.omniture_main_logo]
+17:33:49.642 INFO - Executing: [is displayed: 2 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: .main-logo__link.omniture_main_logo]])
+17:33:49.656 INFO - Done: [is displayed: 2 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: .main-logo__link.omniture_main_logo]]
+17:33:49.660 INFO - Executing: [find elements: By.cssSelector: #navbar_home])
+17:33:49.668 INFO - Done: [find elements: By.cssSelector: #navbar_home]
+17:33:49.671 INFO - Executing: [is displayed: 3 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: #navbar_home]])
+17:33:49.680 INFO - Done: [is displayed: 3 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: #navbar_home]]
+17:33:49.686 INFO - Executing: [find element: By.cssSelector: #navbar_home])
+17:33:49.697 INFO - Done: [find element: By.cssSelector: #navbar_home]
+17:33:49.700 INFO - Executing: [get text: 3 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: #navbar_home]])
+17:33:49.769 INFO - Done: [get text: 3 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: #navbar_home]]
+17:33:49.777 INFO - Executing: [find elements: By.cssSelector: #searchfor])
+17:33:49.786 INFO - Done: [find elements: By.cssSelector: #searchfor]
+17:33:49.789 INFO - Executing: [is displayed: 4 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: #searchfor]])
+17:33:49.802 INFO - Done: [is displayed: 4 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: #searchfor]]
+17:33:49.806 INFO - Executing: [find element: By.cssSelector: #searchfor])
+17:33:49.820 INFO - Done: [find element: By.cssSelector: #searchfor]
+17:33:49.826 INFO - Executing: [send keys: 4 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: #searchfor], [R, o, y, a, l,  , L, e, e, r, d, a, m,  , T, i, m, e, 2, P, a, r, t, y,  , D, r, i, n, k, i, n, g,  , J, a, r, s, s, e, t,  , -,  , 4, 7,  , c, l,  , -,  , 8,  , s, t, u, k, s]])
+17:33:50.007 INFO - Done: [send keys: 4 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: #searchfor], [R, o, y, a, l,  , L, e, e, r, d, a, m,  , T, i, m, e, 2, P, a, r, t, y,  , D, r, i, n, k, i, n, g,  , J, a, r, s, s, e, t,  , -,  , 4, 7,  , c, l,  , -,  , 8,  , s, t, u, k, s]]
+17:33:50.020 INFO - Executing: [find elements: By.cssSelector: .search-btn.large--is-visible.small_details.tst_headerSearchButton])
+17:33:50.114 INFO - Done: [find elements: By.cssSelector: .search-btn.large--is-visible.small_details.tst_headerSearchButton]
+17:33:50.121 INFO - Executing: [is displayed: 5 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: .search-btn.large--is-visible.small_details.tst_headerSearchButton]])
+17:33:50.135 INFO - Done: [is displayed: 5 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: .search-btn.large--is-visible.small_details.tst_headerSearchButton]]
+17:33:50.139 INFO - Executing: [find element: By.cssSelector: .search-btn.large--is-visible.small_details.tst_headerSearchButton])
+17:33:50.148 INFO - Done: [find element: By.cssSelector: .search-btn.large--is-visible.small_details.tst_headerSearchButton]
+17:33:50.151 INFO - Executing: [click: 5 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: .search-btn.large--is-visible.small_details.tst_headerSearchButton]])
+17:33:50.922 INFO - Done: [click: 5 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: .search-btn.large--is-visible.small_details.tst_headerSearchButton]]
+17:33:52.933 INFO - Executing: [find elements: By.cssSelector: img[alt='Royal Leerdam Time2Party Drinking Jarsset - 47 cl - 8 stuks']])
+17:33:52.942 INFO - Done: [find elements: By.cssSelector: img[alt='Royal Leerdam Time2Party Drinking Jarsset - 47 cl - 8 stuks']]
+17:33:52.946 INFO - Executing: [is displayed: 6 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: img[alt='Royal Leerdam Time2Party Drinking Jarsset - 47 cl - 8 stuks']]])
+17:33:52.955 INFO - Done: [is displayed: 6 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: img[alt='Royal Leerdam Time2Party Drinking Jarsset - 47 cl - 8 stuks']]]
+17:33:52.958 INFO - Executing: [find element: By.cssSelector: img[alt='Royal Leerdam Time2Party Drinking Jarsset - 47 cl - 8 stuks']])
+17:33:52.965 INFO - Done: [find element: By.cssSelector: img[alt='Royal Leerdam Time2Party Drinking Jarsset - 47 cl - 8 stuks']]
+17:33:52.968 INFO - Executing: [click: 6 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: img[alt='Royal Leerdam Time2Party Drinking Jarsset - 47 cl - 8 stuks']]])
+17:33:54.187 INFO - Done: [click: 6 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: img[alt='Royal Leerdam Time2Party Drinking Jarsset - 47 cl - 8 stuks']]]
+17:33:56.193 INFO - Executing: [find elements: By.cssSelector: a.btn--buy.btn--lg])
+17:33:56.205 INFO - Done: [find elements: By.cssSelector: a.btn--buy.btn--lg]
+17:33:56.208 INFO - Executing: [is displayed: 7 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: a.btn--buy.btn--lg]])
+17:33:56.220 INFO - Done: [is displayed: 7 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: a.btn--buy.btn--lg]]
+17:33:56.223 INFO - Executing: [find element: By.cssSelector: a.btn--buy.btn--lg])
+17:33:56.233 INFO - Done: [find element: By.cssSelector: a.btn--buy.btn--lg]
+17:33:56.236 INFO - Executing: [click: 7 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: a.btn--buy.btn--lg]])
+17:33:56.488 INFO - Done: [click: 7 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: a.btn--buy.btn--lg]]
+17:33:58.505 INFO - Executing: [find elements: By.cssSelector: div.basket-popup.js_narrow_modal_window > div > div.fluid-grid__item > a])
+17:33:58.514 INFO - Done: [find elements: By.cssSelector: div.basket-popup.js_narrow_modal_window > div > div.fluid-grid__item > a]
+17:33:58.518 INFO - Executing: [is displayed: 8 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: div.basket-popup.js_narrow_modal_window > div > div.fluid-grid__item > a]])
+17:33:58.529 INFO - Done: [is displayed: 8 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: div.basket-popup.js_narrow_modal_window > div > div.fluid-grid__item > a]]
+17:33:58.533 INFO - Executing: [find element: By.cssSelector: div.basket-popup.js_narrow_modal_window > div > div.fluid-grid__item > a])
+17:33:58.541 INFO - Done: [find element: By.cssSelector: div.basket-popup.js_narrow_modal_window > div > div.fluid-grid__item > a]
+17:33:58.544 INFO - Executing: [click: 8 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: div.basket-popup.js_narrow_modal_window > div > div.fluid-grid__item > a]])
+17:33:59.217 INFO - Done: [click: 8 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: div.basket-popup.js_narrow_modal_window > div > div.fluid-grid__item > a]]
+17:34:01.229 INFO - Executing: [find elements: By.cssSelector: #navbar])
+17:34:01.239 INFO - Done: [find elements: By.cssSelector: #navbar]
+17:34:01.242 INFO - Executing: [is displayed: 9 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: #navbar]])
+17:34:01.251 INFO - Done: [is displayed: 9 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: #navbar]]
+17:34:01.254 INFO - Executing: [find element: By.cssSelector: #navbar])
+17:34:01.265 INFO - Done: [find element: By.cssSelector: #navbar]
+17:34:01.268 INFO - Executing: [get text: 9 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: #navbar]])
+17:34:01.294 INFO - Done: [get text: 9 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: #navbar]]
+17:34:01.297 INFO - Executing: [find elements: By.cssSelector: #tst_shipping_costs])
+17:34:01.303 INFO - Done: [find elements: By.cssSelector: #tst_shipping_costs]
+17:34:01.305 INFO - Executing: [is displayed: 10 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: #tst_shipping_costs]])
+17:34:01.315 INFO - Done: [is displayed: 10 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: #tst_shipping_costs]]
+17:34:01.319 INFO - Executing: [find element: By.cssSelector: #tst_shipping_costs])
+17:34:01.325 INFO - Done: [find element: By.cssSelector: #tst_shipping_costs]
+17:34:01.328 INFO - Executing: [get text: 10 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: #tst_shipping_costs]])
+17:34:01.339 INFO - Done: [get text: 10 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: #tst_shipping_costs]]
+17:34:01.344 INFO - Executing: [find elements: By.cssSelector: img[alt='Vanaf 20 euro wordt je bestelling gratis verzonden']])
+17:34:01.352 INFO - Done: [find elements: By.cssSelector: img[alt='Vanaf 20 euro wordt je bestelling gratis verzonden']]
+17:34:01.355 INFO - Executing: [is displayed: 11 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: img[alt='Vanaf 20 euro wordt je bestelling gratis verzonden']]])
+17:34:01.365 INFO - Done: [is displayed: 11 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: img[alt='Vanaf 20 euro wordt je bestelling gratis verzonden']]]
+17:34:01.369 INFO - Executing: [find elements: By.cssSelector: .h-bol-corporate-primary-color])
+17:34:01.384 INFO - Done: [find elements: By.cssSelector: .h-bol-corporate-primary-color]
+17:34:01.387 INFO - Executing: [is displayed: 12 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: .h-bol-corporate-primary-color]])
+17:34:01.396 INFO - Done: [is displayed: 12 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: .h-bol-corporate-primary-color]]
+17:34:01.401 INFO - Executing: [find element: By.cssSelector: .h-bol-corporate-primary-color])
+17:34:01.407 INFO - Done: [find element: By.cssSelector: .h-bol-corporate-primary-color]
+17:34:01.410 INFO - Executing: [get text: 12 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: .h-bol-corporate-primary-color]])
+17:34:01.424 INFO - Done: [get text: 12 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: .h-bol-corporate-primary-color]]
+17:34:01.427 INFO - Executing: [find elements: By.cssSelector: #tst_remove_from_basket])
+17:34:01.433 INFO - Done: [find elements: By.cssSelector: #tst_remove_from_basket]
+17:34:01.436 INFO - Executing: [is displayed: 13 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: #tst_remove_from_basket]])
+17:34:01.446 INFO - Done: [is displayed: 13 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: #tst_remove_from_basket]]
+17:34:01.450 INFO - Executing: [find element: By.cssSelector: #tst_remove_from_basket])
+17:34:01.456 INFO - Done: [find element: By.cssSelector: #tst_remove_from_basket]
+17:34:01.458 INFO - Executing: [click: 13 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: #tst_remove_from_basket]])
+17:34:02.127 INFO - Done: [click: 13 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: #tst_remove_from_basket]]
+17:34:04.134 INFO - Executing: [find elements: By.cssSelector: div.main > div > h2])
+17:34:04.142 INFO - Done: [find elements: By.cssSelector: div.main > div > h2]
+17:34:04.144 INFO - Executing: [is displayed: 14 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: div.main > div > h2]])
+17:34:04.153 INFO - Done: [is displayed: 14 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: div.main > div > h2]]
+17:34:04.157 INFO - Executing: [find element: By.cssSelector: div.main > div > h2])
+17:34:04.163 INFO - Done: [find element: By.cssSelector: div.main > div > h2]
+17:34:04.165 INFO - Executing: [get text: 14 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: div.main > div > h2]])
+17:34:04.173 INFO - Done: [get text: 14 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: div.main > div > h2]]
+17:34:04.185 INFO - Executing: [get: https://www.bol.com/])
+17:34:05.260 INFO - Done: [get: https://www.bol.com/]
+17:34:05.265 INFO - Executing: [find elements: By.cssSelector: body])
+17:34:05.422 INFO - Done: [find elements: By.cssSelector: body]
+17:34:05.425 INFO - Executing: [is displayed: 15 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: body]])
+17:34:05.432 INFO - Done: [is displayed: 15 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: body]]
+17:34:05.435 INFO - Executing: [find elements: By.cssSelector: head])
+17:34:05.441 INFO - Done: [find elements: By.cssSelector: head]
+17:34:05.444 INFO - Executing: [get title])
+17:34:05.449 INFO - Done: [get title]
+17:34:05.454 INFO - Executing: [find elements: By.cssSelector: .main-logo__link.omniture_main_logo])
+17:34:05.461 INFO - Done: [find elements: By.cssSelector: .main-logo__link.omniture_main_logo]
+17:34:05.463 INFO - Executing: [is displayed: 17 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: .main-logo__link.omniture_main_logo]])
+17:34:05.473 INFO - Done: [is displayed: 17 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: .main-logo__link.omniture_main_logo]]
+17:34:05.476 INFO - Executing: [find elements: By.cssSelector: #navbar_home])
+17:34:05.482 INFO - Done: [find elements: By.cssSelector: #navbar_home]
+17:34:05.484 INFO - Executing: [is displayed: 18 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: #navbar_home]])
+17:34:05.492 INFO - Done: [is displayed: 18 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: #navbar_home]]
+17:34:05.496 INFO - Executing: [find element: By.cssSelector: #navbar_home])
+17:34:05.503 INFO - Done: [find element: By.cssSelector: #navbar_home]
+17:34:05.506 INFO - Executing: [get text: 18 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: #navbar_home]])
+17:34:05.523 INFO - Done: [get text: 18 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: #navbar_home]]
+17:34:05.527 INFO - Executing: [find elements: By.cssSelector: #searchfor])
+17:34:05.533 INFO - Done: [find elements: By.cssSelector: #searchfor]
+17:34:05.536 INFO - Executing: [is displayed: 19 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: #searchfor]])
+17:34:05.545 INFO - Done: [is displayed: 19 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: #searchfor]]
+17:34:05.548 INFO - Executing: [find element: By.cssSelector: #searchfor])
+17:34:05.554 INFO - Done: [find element: By.cssSelector: #searchfor]
+17:34:05.557 INFO - Executing: [send keys: 19 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: #searchfor], [S, e, n, n, h, e, i, s, e, r,  , P, X, C,  , O, v, e, r, -, e, a, r]])
+17:34:05.736 INFO - Done: [send keys: 19 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: #searchfor], [S, e, n, n, h, e, i, s, e, r,  , P, X, C,  , O, v, e, r, -, e, a, r]]
+17:34:05.740 INFO - Executing: [find elements: By.cssSelector: .search-btn.large--is-visible.small_details.tst_headerSearchButton])
+17:34:05.748 INFO - Done: [find elements: By.cssSelector: .search-btn.large--is-visible.small_details.tst_headerSearchButton]
+17:34:05.751 INFO - Executing: [is displayed: 20 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: .search-btn.large--is-visible.small_details.tst_headerSearchButton]])
+17:34:05.766 INFO - Done: [is displayed: 20 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: .search-btn.large--is-visible.small_details.tst_headerSearchButton]]
+17:34:05.769 INFO - Executing: [find element: By.cssSelector: .search-btn.large--is-visible.small_details.tst_headerSearchButton])
+17:34:05.776 INFO - Done: [find element: By.cssSelector: .search-btn.large--is-visible.small_details.tst_headerSearchButton]
+17:34:05.779 INFO - Executing: [click: 20 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: .search-btn.large--is-visible.small_details.tst_headerSearchButton]])
+17:34:06.906 INFO - Done: [click: 20 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: .search-btn.large--is-visible.small_details.tst_headerSearchButton]]
+17:34:08.916 INFO - Executing: [find elements: By.cssSelector: img[alt='Sennheiser PXC 550 Wireless - Over-ear koptelefoon - Zwart']])
+17:34:08.925 INFO - Done: [find elements: By.cssSelector: img[alt='Sennheiser PXC 550 Wireless - Over-ear koptelefoon - Zwart']]
+17:34:08.927 INFO - Executing: [is displayed: 21 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: img[alt='Sennheiser PXC 550 Wireless - Over-ear koptelefoon - Zwart']]])
+17:34:08.939 INFO - Done: [is displayed: 21 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: img[alt='Sennheiser PXC 550 Wireless - Over-ear koptelefoon - Zwart']]]
+17:34:08.942 INFO - Executing: [find element: By.cssSelector: img[alt='Sennheiser PXC 550 Wireless - Over-ear koptelefoon - Zwart']])
+17:34:08.956 INFO - Done: [find element: By.cssSelector: img[alt='Sennheiser PXC 550 Wireless - Over-ear koptelefoon - Zwart']]
+17:34:08.958 INFO - Executing: [click: 21 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: img[alt='Sennheiser PXC 550 Wireless - Over-ear koptelefoon - Zwart']]])
+17:34:10.200 INFO - Done: [click: 21 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: img[alt='Sennheiser PXC 550 Wireless - Over-ear koptelefoon - Zwart']]]
+17:34:12.210 INFO - Executing: [find elements: By.cssSelector: a.btn--buy.btn--lg])
+17:34:12.220 INFO - Done: [find elements: By.cssSelector: a.btn--buy.btn--lg]
+17:34:12.222 INFO - Executing: [is displayed: 22 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: a.btn--buy.btn--lg]])
+17:34:12.234 INFO - Done: [is displayed: 22 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: a.btn--buy.btn--lg]]
+17:34:12.237 INFO - Executing: [find element: By.cssSelector: a.btn--buy.btn--lg])
+17:34:12.244 INFO - Done: [find element: By.cssSelector: a.btn--buy.btn--lg]
+17:34:12.246 INFO - Executing: [click: 22 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: a.btn--buy.btn--lg]])
+17:34:12.438 INFO - Done: [click: 22 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: a.btn--buy.btn--lg]]
+17:34:14.448 INFO - Executing: [find elements: By.cssSelector: div.basket-popup.js_narrow_modal_window > div > div.fluid-grid__item > a])
+17:34:14.460 INFO - Done: [find elements: By.cssSelector: div.basket-popup.js_narrow_modal_window > div > div.fluid-grid__item > a]
+17:34:14.462 INFO - Executing: [is displayed: 23 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: div.basket-popup.js_narrow_modal_window > div > div.fluid-grid__item > a]])
+17:34:14.471 INFO - Done: [is displayed: 23 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: div.basket-popup.js_narrow_modal_window > div > div.fluid-grid__item > a]]
+17:34:14.474 INFO - Executing: [find element: By.cssSelector: div.basket-popup.js_narrow_modal_window > div > div.fluid-grid__item > a])
+17:34:14.481 INFO - Done: [find element: By.cssSelector: div.basket-popup.js_narrow_modal_window > div > div.fluid-grid__item > a]
+17:34:14.484 INFO - Executing: [click: 23 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: div.basket-popup.js_narrow_modal_window > div > div.fluid-grid__item > a]])
+17:34:15.336 INFO - Done: [click: 23 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: div.basket-popup.js_narrow_modal_window > div > div.fluid-grid__item > a]]
+17:34:17.342 INFO - Executing: [find elements: By.cssSelector: .h-bol-highlite-secundary-color])
+17:34:17.351 INFO - Done: [find elements: By.cssSelector: .h-bol-highlite-secundary-color]
+17:34:17.354 INFO - Executing: [is displayed: 24 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: .h-bol-highlite-secundary-color]])
+17:34:17.367 INFO - Done: [is displayed: 24 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: .h-bol-highlite-secundary-color]]
+17:34:17.373 INFO - Executing: [find element: By.cssSelector: .h-bol-highlite-secundary-color])
+17:34:17.380 INFO - Done: [find element: By.cssSelector: .h-bol-highlite-secundary-color]
+17:34:17.383 INFO - Executing: [get text: 24 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: .h-bol-highlite-secundary-color]])
+17:34:17.393 INFO - Done: [get text: 24 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: .h-bol-highlite-secundary-color]]
+17:34:17.397 INFO - Executing: [find elements: By.cssSelector: img[alt='Bestel nu en je bestelling wordt gratis verzonden']])
+17:34:17.405 INFO - Done: [find elements: By.cssSelector: img[alt='Bestel nu en je bestelling wordt gratis verzonden']]
+17:34:17.407 INFO - Executing: [is displayed: 25 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: img[alt='Bestel nu en je bestelling wordt gratis verzonden']]])
+17:34:17.415 INFO - Done: [is displayed: 25 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: img[alt='Bestel nu en je bestelling wordt gratis verzonden']]]
+17:34:17.418 INFO - Executing: [find element: By.cssSelector: .country_select])
+17:34:17.428 INFO - Done: [find element: By.cssSelector: .country_select]
+17:34:17.430 INFO - Executing: [click: 26 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: .country_select]])
+17:34:17.497 INFO - Done: [click: 26 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: .country_select]]
+17:34:18.502 INFO - Executing: [find element: By.cssSelector: ul.user_links li:nth-child(2)])
+17:34:18.509 INFO - Done: [find element: By.cssSelector: ul.user_links li:nth-child(2)]
+17:34:18.512 INFO - Executing: [click: 27 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: ul.user_links li:nth-child(2)]])
+17:34:18.581 INFO - Done: [click: 27 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: ul.user_links li:nth-child(2)]]
+17:34:19.584 INFO - Executing: [find elements: By.cssSelector: .h-bol-highlite-secundary-color])
+17:34:19.942 INFO - Done: [find elements: By.cssSelector: .h-bol-highlite-secundary-color]
+17:34:19.944 INFO - Executing: [is displayed: 28 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: .h-bol-highlite-secundary-color]])
+17:34:19.958 INFO - Done: [is displayed: 28 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: .h-bol-highlite-secundary-color]]
+17:34:19.961 INFO - Executing: [find element: By.cssSelector: .h-bol-highlite-secundary-color])
+17:34:19.968 INFO - Done: [find element: By.cssSelector: .h-bol-highlite-secundary-color]
+17:34:19.971 INFO - Executing: [get text: 28 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: .h-bol-highlite-secundary-color]])
+17:34:19.983 INFO - Done: [get text: 28 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: .h-bol-highlite-secundary-color]]
+17:34:19.985 INFO - Executing: [find elements: By.cssSelector: img[alt='Bestel nu en je bestelling wordt gratis verzonden']])
+17:34:19.992 INFO - Done: [find elements: By.cssSelector: img[alt='Bestel nu en je bestelling wordt gratis verzonden']]
+17:34:19.995 INFO - Executing: [is displayed: 29 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: img[alt='Bestel nu en je bestelling wordt gratis verzonden']]])
+17:34:20.006 INFO - Done: [is displayed: 29 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: img[alt='Bestel nu en je bestelling wordt gratis verzonden']]]
+17:34:20.008 INFO - Executing: [find elements: By.cssSelector: #tst_remove_from_basket])
+17:34:20.015 INFO - Done: [find elements: By.cssSelector: #tst_remove_from_basket]
+17:34:20.017 INFO - Executing: [is displayed: 30 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: #tst_remove_from_basket]])
+17:34:20.028 INFO - Done: [is displayed: 30 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: #tst_remove_from_basket]]
+17:34:20.032 INFO - Executing: [find element: By.cssSelector: #tst_remove_from_basket])
+17:34:20.037 INFO - Done: [find element: By.cssSelector: #tst_remove_from_basket]
+17:34:20.040 INFO - Executing: [click: 30 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: #tst_remove_from_basket]])
+17:34:20.605 INFO - Done: [click: 30 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: #tst_remove_from_basket]]
+17:34:22.618 INFO - Executing: [find elements: By.cssSelector: div.main > div > h2])
+17:34:22.631 INFO - Done: [find elements: By.cssSelector: div.main > div > h2]
+17:34:22.633 INFO - Executing: [is displayed: 31 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: div.main > div > h2]])
+17:34:22.640 INFO - Done: [is displayed: 31 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: div.main > div > h2]]
+17:34:22.643 INFO - Executing: [find element: By.cssSelector: div.main > div > h2])
+17:34:22.649 INFO - Done: [find element: By.cssSelector: div.main > div > h2]
+17:34:22.651 INFO - Executing: [get text: 31 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: div.main > div > h2]])
+17:34:22.658 INFO - Done: [get text: 31 [[FirefoxDriver: firefox on MAC (18985e47-ef89-b344-8665-855f2bee14e6)] -> css selector: div.main > div > h2]]
+17:34:22.662 INFO - Executing: [delete session: 9ad1a03b-574f-4624-b31a-097865a1bf50])
+17:34:22.858 INFO - Done: [delete session: 9ad1a03b-574f-4624-b31a-097865a1bf50]
+17:34:22.889 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, elementScrollBehavior=1, name=Shipping Cost Free Shipping, browserName=firefox, javascriptEnabled=true, platform=ANY}]])
+17:34:22.896 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, elementScrollBehavior=1, name=Shipping Cost Free Shipping, browserName=firefox, javascriptEnabled=true, platform=ANY}]
+17:34:25.240 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, elementScrollBehavior=1, name=Shipping Cost Free Shipping, browserName=firefox, javascriptEnabled=true, platform=ANY}]]
+17:34:25.247 INFO - Executing: [get: https://www.bol.com/])
+17:34:26.893 INFO - Done: [get: https://www.bol.com/]
+17:34:26.900 INFO - Executing: [find elements: By.cssSelector: body])
+17:34:27.704 INFO - Done: [find elements: By.cssSelector: body]
+17:34:27.707 INFO - Executing: [is displayed: 0 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: body]])
+17:34:27.715 INFO - Done: [is displayed: 0 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: body]]
+17:34:27.718 INFO - Executing: [find elements: By.cssSelector: head])
+17:34:27.725 INFO - Done: [find elements: By.cssSelector: head]
+17:34:27.728 INFO - Executing: [get title])
+17:34:27.736 INFO - Done: [get title]
+17:34:27.739 INFO - Executing: [find elements: By.cssSelector: .main-logo__link.omniture_main_logo])
+17:34:27.748 INFO - Done: [find elements: By.cssSelector: .main-logo__link.omniture_main_logo]
+17:34:27.753 INFO - Executing: [is displayed: 2 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: .main-logo__link.omniture_main_logo]])
+17:34:27.771 INFO - Done: [is displayed: 2 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: .main-logo__link.omniture_main_logo]]
+17:34:27.775 INFO - Executing: [find elements: By.cssSelector: #navbar_home])
+17:34:27.788 INFO - Done: [find elements: By.cssSelector: #navbar_home]
+17:34:27.795 INFO - Executing: [is displayed: 3 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: #navbar_home]])
+17:34:27.805 INFO - Done: [is displayed: 3 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: #navbar_home]]
+17:34:27.808 INFO - Executing: [find element: By.cssSelector: #navbar_home])
+17:34:27.817 INFO - Done: [find element: By.cssSelector: #navbar_home]
+17:34:27.829 INFO - Executing: [get text: 3 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: #navbar_home]])
+17:34:27.861 INFO - Done: [get text: 3 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: #navbar_home]]
+17:34:27.864 INFO - Executing: [find elements: By.cssSelector: #searchfor])
+17:34:27.871 INFO - Done: [find elements: By.cssSelector: #searchfor]
+17:34:27.873 INFO - Executing: [is displayed: 4 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: #searchfor]])
+17:34:27.885 INFO - Done: [is displayed: 4 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: #searchfor]]
+17:34:27.889 INFO - Executing: [find element: By.cssSelector: #searchfor])
+17:34:27.896 INFO - Done: [find element: By.cssSelector: #searchfor]
+17:34:27.909 INFO - Executing: [send keys: 4 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: #searchfor], [S, e, n, n, h, e, i, s, e, r,  , P, X, C,  , O, v, e, r, -, e, a, r]])
+17:34:28.137 INFO - Done: [send keys: 4 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: #searchfor], [S, e, n, n, h, e, i, s, e, r,  , P, X, C,  , O, v, e, r, -, e, a, r]]
+17:34:28.146 INFO - Executing: [find elements: By.cssSelector: .search-btn.large--is-visible.small_details.tst_headerSearchButton])
+17:34:28.190 INFO - Done: [find elements: By.cssSelector: .search-btn.large--is-visible.small_details.tst_headerSearchButton]
+17:34:28.193 INFO - Executing: [is displayed: 5 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: .search-btn.large--is-visible.small_details.tst_headerSearchButton]])
+17:34:28.210 INFO - Done: [is displayed: 5 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: .search-btn.large--is-visible.small_details.tst_headerSearchButton]]
+17:34:28.216 INFO - Executing: [find element: By.cssSelector: .search-btn.large--is-visible.small_details.tst_headerSearchButton])
+17:34:28.223 INFO - Done: [find element: By.cssSelector: .search-btn.large--is-visible.small_details.tst_headerSearchButton]
+17:34:28.226 INFO - Executing: [click: 5 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: .search-btn.large--is-visible.small_details.tst_headerSearchButton]])
+17:34:29.095 INFO - Done: [click: 5 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: .search-btn.large--is-visible.small_details.tst_headerSearchButton]]
+17:34:31.107 INFO - Executing: [find elements: By.cssSelector: img[alt='Sennheiser PXC 550 Wireless - Over-ear koptelefoon - Zwart']])
+17:34:31.116 INFO - Done: [find elements: By.cssSelector: img[alt='Sennheiser PXC 550 Wireless - Over-ear koptelefoon - Zwart']]
+17:34:31.123 INFO - Executing: [is displayed: 6 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: img[alt='Sennheiser PXC 550 Wireless - Over-ear koptelefoon - Zwart']]])
+17:34:31.131 INFO - Done: [is displayed: 6 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: img[alt='Sennheiser PXC 550 Wireless - Over-ear koptelefoon - Zwart']]]
+17:34:31.138 INFO - Executing: [find element: By.cssSelector: img[alt='Sennheiser PXC 550 Wireless - Over-ear koptelefoon - Zwart']])
+17:34:31.144 INFO - Done: [find element: By.cssSelector: img[alt='Sennheiser PXC 550 Wireless - Over-ear koptelefoon - Zwart']]
+17:34:31.148 INFO - Executing: [click: 6 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: img[alt='Sennheiser PXC 550 Wireless - Over-ear koptelefoon - Zwart']]])
+17:34:31.235 INFO - Done: [click: 6 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: img[alt='Sennheiser PXC 550 Wireless - Over-ear koptelefoon - Zwart']]]
+17:34:33.240 INFO - Executing: [find elements: By.cssSelector: a.btn--buy.btn--lg])
+17:34:33.725 INFO - Done: [find elements: By.cssSelector: a.btn--buy.btn--lg]
+17:34:33.728 INFO - Executing: [is displayed: 7 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: a.btn--buy.btn--lg]])
+17:34:33.865 INFO - Done: [is displayed: 7 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: a.btn--buy.btn--lg]]
+17:34:33.869 INFO - Executing: [find element: By.cssSelector: a.btn--buy.btn--lg])
+17:34:33.876 INFO - Done: [find element: By.cssSelector: a.btn--buy.btn--lg]
+17:34:33.878 INFO - Executing: [click: 7 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: a.btn--buy.btn--lg]])
+17:34:34.098 INFO - Done: [click: 7 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: a.btn--buy.btn--lg]]
+17:34:36.110 INFO - Executing: [find elements: By.cssSelector: div.basket-popup.js_narrow_modal_window > div > div.fluid-grid__item > a])
+17:34:36.118 INFO - Done: [find elements: By.cssSelector: div.basket-popup.js_narrow_modal_window > div > div.fluid-grid__item > a]
+17:34:36.120 INFO - Executing: [is displayed: 8 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: div.basket-popup.js_narrow_modal_window > div > div.fluid-grid__item > a]])
+17:34:36.129 INFO - Done: [is displayed: 8 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: div.basket-popup.js_narrow_modal_window > div > div.fluid-grid__item > a]]
+17:34:36.131 INFO - Executing: [find element: By.cssSelector: div.basket-popup.js_narrow_modal_window > div > div.fluid-grid__item > a])
+17:34:36.141 INFO - Done: [find element: By.cssSelector: div.basket-popup.js_narrow_modal_window > div > div.fluid-grid__item > a]
+17:34:36.145 INFO - Executing: [click: 8 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: div.basket-popup.js_narrow_modal_window > div > div.fluid-grid__item > a]])
+17:34:36.943 INFO - Done: [click: 8 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: div.basket-popup.js_narrow_modal_window > div > div.fluid-grid__item > a]]
+17:34:38.952 INFO - Executing: [find elements: By.cssSelector: #navbar])
+17:34:38.961 INFO - Done: [find elements: By.cssSelector: #navbar]
+17:34:38.963 INFO - Executing: [is displayed: 9 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: #navbar]])
+17:34:38.971 INFO - Done: [is displayed: 9 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: #navbar]]
+17:34:38.974 INFO - Executing: [find element: By.cssSelector: #navbar])
+17:34:38.980 INFO - Done: [find element: By.cssSelector: #navbar]
+17:34:38.982 INFO - Executing: [get text: 9 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: #navbar]])
+17:34:39.014 INFO - Done: [get text: 9 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: #navbar]]
+17:34:39.020 INFO - Executing: [find elements: By.cssSelector: .h-bol-highlite-secundary-color])
+17:34:39.029 INFO - Done: [find elements: By.cssSelector: .h-bol-highlite-secundary-color]
+17:34:39.032 INFO - Executing: [is displayed: 10 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: .h-bol-highlite-secundary-color]])
+17:34:39.044 INFO - Done: [is displayed: 10 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: .h-bol-highlite-secundary-color]]
+17:34:39.047 INFO - Executing: [find element: By.cssSelector: .h-bol-highlite-secundary-color])
+17:34:39.056 INFO - Done: [find element: By.cssSelector: .h-bol-highlite-secundary-color]
+17:34:39.064 INFO - Executing: [get text: 10 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: .h-bol-highlite-secundary-color]])
+17:34:39.076 INFO - Done: [get text: 10 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: .h-bol-highlite-secundary-color]]
+17:34:39.080 INFO - Executing: [find elements: By.cssSelector: img[alt='Bestel nu en je bestelling wordt gratis verzonden']])
+17:34:39.094 INFO - Done: [find elements: By.cssSelector: img[alt='Bestel nu en je bestelling wordt gratis verzonden']]
+17:34:39.096 INFO - Executing: [is displayed: 11 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: img[alt='Bestel nu en je bestelling wordt gratis verzonden']]])
+17:34:39.106 INFO - Done: [is displayed: 11 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: img[alt='Bestel nu en je bestelling wordt gratis verzonden']]]
+17:34:39.109 INFO - Executing: [find elements: By.cssSelector: #tst_remove_from_basket])
+17:34:39.115 INFO - Done: [find elements: By.cssSelector: #tst_remove_from_basket]
+17:34:39.117 INFO - Executing: [is displayed: 12 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: #tst_remove_from_basket]])
+17:34:39.128 INFO - Done: [is displayed: 12 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: #tst_remove_from_basket]]
+17:34:39.135 INFO - Executing: [find element: By.cssSelector: #tst_remove_from_basket])
+17:34:39.146 INFO - Done: [find element: By.cssSelector: #tst_remove_from_basket]
+17:34:39.150 INFO - Executing: [click: 12 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: #tst_remove_from_basket]])
+17:34:39.772 INFO - Done: [click: 12 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: #tst_remove_from_basket]]
+17:34:41.776 INFO - Executing: [find elements: By.cssSelector: div.main > div > h2])
+17:34:41.784 INFO - Done: [find elements: By.cssSelector: div.main > div > h2]
+17:34:41.786 INFO - Executing: [is displayed: 13 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: div.main > div > h2]])
+17:34:41.795 INFO - Done: [is displayed: 13 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: div.main > div > h2]]
+17:34:41.801 INFO - Executing: [find element: By.cssSelector: div.main > div > h2])
+17:34:41.807 INFO - Done: [find element: By.cssSelector: div.main > div > h2]
+17:34:41.810 INFO - Executing: [get text: 13 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: div.main > div > h2]])
+17:34:41.817 INFO - Done: [get text: 13 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: div.main > div > h2]]
+17:34:41.826 INFO - Executing: [get: https://www.bol.com/])
+17:34:42.963 INFO - Done: [get: https://www.bol.com/]
+17:34:42.966 INFO - Executing: [find elements: By.cssSelector: body])
+17:34:43.096 INFO - Done: [find elements: By.cssSelector: body]
+17:34:43.098 INFO - Executing: [is displayed: 14 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: body]])
+17:34:43.103 INFO - Done: [is displayed: 14 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: body]]
+17:34:43.106 INFO - Executing: [find elements: By.cssSelector: head])
+17:34:43.112 INFO - Done: [find elements: By.cssSelector: head]
+17:34:43.114 INFO - Executing: [get title])
+17:34:43.120 INFO - Done: [get title]
+17:34:43.123 INFO - Executing: [find elements: By.cssSelector: .main-logo__link.omniture_main_logo])
+17:34:43.131 INFO - Done: [find elements: By.cssSelector: .main-logo__link.omniture_main_logo]
+17:34:43.133 INFO - Executing: [is displayed: 16 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: .main-logo__link.omniture_main_logo]])
+17:34:43.151 INFO - Done: [is displayed: 16 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: .main-logo__link.omniture_main_logo]]
+17:34:43.156 INFO - Executing: [find elements: By.cssSelector: #navbar_home])
+17:34:43.170 INFO - Done: [find elements: By.cssSelector: #navbar_home]
+17:34:43.174 INFO - Executing: [is displayed: 17 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: #navbar_home]])
+17:34:43.185 INFO - Done: [is displayed: 17 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: #navbar_home]]
+17:34:43.188 INFO - Executing: [find element: By.cssSelector: #navbar_home])
+17:34:43.195 INFO - Done: [find element: By.cssSelector: #navbar_home]
+17:34:43.197 INFO - Executing: [get text: 17 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: #navbar_home]])
+17:34:43.227 INFO - Done: [get text: 17 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: #navbar_home]]
+17:34:43.233 INFO - Executing: [find elements: By.cssSelector: #searchfor])
+17:34:43.242 INFO - Done: [find elements: By.cssSelector: #searchfor]
+17:34:43.245 INFO - Executing: [is displayed: 18 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: #searchfor]])
+17:34:43.255 INFO - Done: [is displayed: 18 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: #searchfor]]
+17:34:43.257 INFO - Executing: [find element: By.cssSelector: #searchfor])
+17:34:43.263 INFO - Done: [find element: By.cssSelector: #searchfor]
+17:34:43.267 INFO - Executing: [send keys: 18 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: #searchfor], [F, r, a, n, c, i, n, e,  , D, u,  , P, l, e,  , G, r, a, y,  , F, r, a, n, c, i, n, e,  , D, u,  , P, l, e,  , G, r, a, y]])
+17:34:43.420 INFO - Done: [send keys: 18 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: #searchfor], [F, r, a, n, c, i, n, e,  , D, u,  , P, l, e,  , G, r, a, y,  , F, r, a, n, c, i, n, e,  , D, u,  , P, l, e,  , G, r, a, y]]
+17:34:43.426 INFO - Executing: [find elements: By.cssSelector: .search-btn.large--is-visible.small_details.tst_headerSearchButton])
+17:34:43.535 INFO - Done: [find elements: By.cssSelector: .search-btn.large--is-visible.small_details.tst_headerSearchButton]
+17:34:43.540 INFO - Executing: [is displayed: 19 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: .search-btn.large--is-visible.small_details.tst_headerSearchButton]])
+17:34:43.554 INFO - Done: [is displayed: 19 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: .search-btn.large--is-visible.small_details.tst_headerSearchButton]]
+17:34:43.563 INFO - Executing: [find element: By.cssSelector: .search-btn.large--is-visible.small_details.tst_headerSearchButton])
+17:34:43.573 INFO - Done: [find element: By.cssSelector: .search-btn.large--is-visible.small_details.tst_headerSearchButton]
+17:34:43.579 INFO - Executing: [click: 19 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: .search-btn.large--is-visible.small_details.tst_headerSearchButton]])
+17:34:44.727 INFO - Done: [click: 19 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: .search-btn.large--is-visible.small_details.tst_headerSearchButton]]
+17:34:46.737 INFO - Executing: [find elements: By.cssSelector: img[alt='Lovers and Tyrants']])
+17:34:46.747 INFO - Done: [find elements: By.cssSelector: img[alt='Lovers and Tyrants']]
+17:34:46.749 INFO - Executing: [is displayed: 20 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: img[alt='Lovers and Tyrants']]])
+17:34:46.760 INFO - Done: [is displayed: 20 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: img[alt='Lovers and Tyrants']]]
+17:34:46.763 INFO - Executing: [find element: By.cssSelector: img[alt='Lovers and Tyrants']])
+17:34:46.769 INFO - Done: [find element: By.cssSelector: img[alt='Lovers and Tyrants']]
+17:34:46.771 INFO - Executing: [click: 20 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: img[alt='Lovers and Tyrants']]])
+17:34:46.860 INFO - Done: [click: 20 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: img[alt='Lovers and Tyrants']]]
+17:34:48.865 INFO - Executing: [find elements: By.cssSelector: a.btn--buy.btn--lg])
+17:34:48.875 INFO - Done: [find elements: By.cssSelector: a.btn--buy.btn--lg]
+17:34:48.878 INFO - Executing: [is displayed: 21 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: a.btn--buy.btn--lg]])
+17:34:48.888 INFO - Done: [is displayed: 21 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: a.btn--buy.btn--lg]]
+17:34:48.891 INFO - Executing: [find element: By.cssSelector: a.btn--buy.btn--lg])
+17:34:48.900 INFO - Done: [find element: By.cssSelector: a.btn--buy.btn--lg]
+17:34:48.902 INFO - Executing: [click: 21 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: a.btn--buy.btn--lg]])
+17:34:49.105 INFO - Done: [click: 21 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: a.btn--buy.btn--lg]]
+17:34:51.116 INFO - Executing: [find elements: By.cssSelector: div.basket-popup.js_narrow_modal_window > div > div.fluid-grid__item > a])
+17:34:51.123 INFO - Done: [find elements: By.cssSelector: div.basket-popup.js_narrow_modal_window > div > div.fluid-grid__item > a]
+17:34:51.125 INFO - Executing: [is displayed: 22 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: div.basket-popup.js_narrow_modal_window > div > div.fluid-grid__item > a]])
+17:34:51.134 INFO - Done: [is displayed: 22 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: div.basket-popup.js_narrow_modal_window > div > div.fluid-grid__item > a]]
+17:34:51.137 INFO - Executing: [find element: By.cssSelector: div.basket-popup.js_narrow_modal_window > div > div.fluid-grid__item > a])
+17:34:51.146 INFO - Done: [find element: By.cssSelector: div.basket-popup.js_narrow_modal_window > div > div.fluid-grid__item > a]
+17:34:51.149 INFO - Executing: [click: 22 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: div.basket-popup.js_narrow_modal_window > div > div.fluid-grid__item > a]])
+17:34:52.107 INFO - Done: [click: 22 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: div.basket-popup.js_narrow_modal_window > div > div.fluid-grid__item > a]]
+17:34:54.117 INFO - Executing: [find elements: By.cssSelector: #navbar])
+17:34:54.129 INFO - Done: [find elements: By.cssSelector: #navbar]
+17:34:54.131 INFO - Executing: [is displayed: 23 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: #navbar]])
+17:34:54.140 INFO - Done: [is displayed: 23 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: #navbar]]
+17:34:54.143 INFO - Executing: [find element: By.cssSelector: #navbar])
+17:34:54.152 INFO - Done: [find element: By.cssSelector: #navbar]
+17:34:54.154 INFO - Executing: [get text: 23 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: #navbar]])
+17:34:54.188 INFO - Done: [get text: 23 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: #navbar]]
+17:34:54.192 INFO - Executing: [find elements: By.cssSelector: .h-bol-highlite-secundary-color])
+17:34:54.200 INFO - Done: [find elements: By.cssSelector: .h-bol-highlite-secundary-color]
+17:34:54.202 INFO - Executing: [is displayed: 24 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: .h-bol-highlite-secundary-color]])
+17:34:54.218 INFO - Done: [is displayed: 24 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: .h-bol-highlite-secundary-color]]
+17:34:54.222 INFO - Executing: [find element: By.cssSelector: .h-bol-highlite-secundary-color])
+17:34:54.228 INFO - Done: [find element: By.cssSelector: .h-bol-highlite-secundary-color]
+17:34:54.230 INFO - Executing: [get text: 24 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: .h-bol-highlite-secundary-color]])
+17:34:54.241 INFO - Done: [get text: 24 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: .h-bol-highlite-secundary-color]]
+17:34:54.243 INFO - Executing: [find elements: By.cssSelector: img[alt='Bestel nu en je bestelling wordt gratis verzonden']])
+17:34:54.258 INFO - Done: [find elements: By.cssSelector: img[alt='Bestel nu en je bestelling wordt gratis verzonden']]
+17:34:54.261 INFO - Executing: [is displayed: 25 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: img[alt='Bestel nu en je bestelling wordt gratis verzonden']]])
+17:34:54.272 INFO - Done: [is displayed: 25 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: img[alt='Bestel nu en je bestelling wordt gratis verzonden']]]
+17:34:54.279 INFO - Executing: [find elements: By.cssSelector: #tst_remove_from_basket])
+17:34:54.293 INFO - Done: [find elements: By.cssSelector: #tst_remove_from_basket]
+17:34:54.295 INFO - Executing: [is displayed: 26 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: #tst_remove_from_basket]])
+17:34:54.303 INFO - Done: [is displayed: 26 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: #tst_remove_from_basket]]
+17:34:54.306 INFO - Executing: [find element: By.cssSelector: #tst_remove_from_basket])
+17:34:54.311 INFO - Done: [find element: By.cssSelector: #tst_remove_from_basket]
+17:34:54.316 INFO - Executing: [click: 26 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: #tst_remove_from_basket]])
+17:34:54.977 INFO - Done: [click: 26 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: #tst_remove_from_basket]]
+17:34:56.981 INFO - Executing: [find elements: By.cssSelector: div.main > div > h2])
+17:34:56.989 INFO - Done: [find elements: By.cssSelector: div.main > div > h2]
+17:34:56.991 INFO - Executing: [is displayed: 27 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: div.main > div > h2]])
+17:34:56.998 INFO - Done: [is displayed: 27 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: div.main > div > h2]]
+17:34:57.002 INFO - Executing: [find element: By.cssSelector: div.main > div > h2])
+17:34:57.008 INFO - Done: [find element: By.cssSelector: div.main > div > h2]
+17:34:57.010 INFO - Executing: [get text: 27 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: div.main > div > h2]])
+17:34:57.017 INFO - Done: [get text: 27 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: div.main > div > h2]]
+17:34:57.024 INFO - Executing: [get: https://www.bol.com/])
+17:34:58.274 INFO - Done: [get: https://www.bol.com/]
+17:34:58.277 INFO - Executing: [find elements: By.cssSelector: body])
+17:34:58.400 INFO - Done: [find elements: By.cssSelector: body]
+17:34:58.405 INFO - Executing: [is displayed: 28 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: body]])
+17:34:58.410 INFO - Done: [is displayed: 28 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: body]]
+17:34:58.413 INFO - Executing: [find elements: By.cssSelector: head])
+17:34:58.419 INFO - Done: [find elements: By.cssSelector: head]
+17:34:58.422 INFO - Executing: [get title])
+17:34:58.428 INFO - Done: [get title]
+17:34:58.430 INFO - Executing: [find elements: By.cssSelector: .main-logo__link.omniture_main_logo])
+17:34:58.436 INFO - Done: [find elements: By.cssSelector: .main-logo__link.omniture_main_logo]
+17:34:58.438 INFO - Executing: [is displayed: 30 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: .main-logo__link.omniture_main_logo]])
+17:34:58.446 INFO - Done: [is displayed: 30 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: .main-logo__link.omniture_main_logo]]
+17:34:58.453 INFO - Executing: [find elements: By.cssSelector: #navbar_home])
+17:34:58.461 INFO - Done: [find elements: By.cssSelector: #navbar_home]
+17:34:58.464 INFO - Executing: [is displayed: 31 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: #navbar_home]])
+17:34:58.475 INFO - Done: [is displayed: 31 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: #navbar_home]]
+17:34:58.480 INFO - Executing: [find element: By.cssSelector: #navbar_home])
+17:34:58.486 INFO - Done: [find element: By.cssSelector: #navbar_home]
+17:34:58.489 INFO - Executing: [get text: 31 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: #navbar_home]])
+17:34:58.525 INFO - Done: [get text: 31 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: #navbar_home]]
+17:34:58.530 INFO - Executing: [find elements: By.cssSelector: #searchfor])
+17:34:58.537 INFO - Done: [find elements: By.cssSelector: #searchfor]
+17:34:58.541 INFO - Executing: [is displayed: 32 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: #searchfor]])
+17:34:58.548 INFO - Done: [is displayed: 32 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: #searchfor]]
+17:34:58.551 INFO - Executing: [find element: By.cssSelector: #searchfor])
+17:34:58.558 INFO - Done: [find element: By.cssSelector: #searchfor]
+17:34:58.561 INFO - Executing: [send keys: 32 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: #searchfor], [V, i, l, l, e, r, o, y,  , &,  , B, o, c, h,  , C, h, a, r, l, e, s,  , B, e, s, t, e, k, s, e, t,  , -,  , 2, 4, -, d, e, l, i, g]])
+17:34:58.726 INFO - Done: [send keys: 32 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: #searchfor], [V, i, l, l, e, r, o, y,  , &,  , B, o, c, h,  , C, h, a, r, l, e, s,  , B, e, s, t, e, k, s, e, t,  , -,  , 2, 4, -, d, e, l, i, g]]
+17:34:58.729 INFO - Executing: [find elements: By.cssSelector: .search-btn.large--is-visible.small_details.tst_headerSearchButton])
+17:34:58.889 INFO - Done: [find elements: By.cssSelector: .search-btn.large--is-visible.small_details.tst_headerSearchButton]
+17:34:58.895 INFO - Executing: [is displayed: 33 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: .search-btn.large--is-visible.small_details.tst_headerSearchButton]])
+17:34:58.911 INFO - Done: [is displayed: 33 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: .search-btn.large--is-visible.small_details.tst_headerSearchButton]]
+17:34:58.915 INFO - Executing: [find element: By.cssSelector: .search-btn.large--is-visible.small_details.tst_headerSearchButton])
+17:34:58.931 INFO - Done: [find element: By.cssSelector: .search-btn.large--is-visible.small_details.tst_headerSearchButton]
+17:34:58.936 INFO - Executing: [click: 33 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: .search-btn.large--is-visible.small_details.tst_headerSearchButton]])
+17:35:00.044 INFO - Done: [click: 33 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: .search-btn.large--is-visible.small_details.tst_headerSearchButton]]
+17:35:02.052 INFO - Executing: [find elements: By.cssSelector: img[alt='Villeroy & Boch Charles Bestekset - 24-delig']])
+17:35:02.061 INFO - Done: [find elements: By.cssSelector: img[alt='Villeroy & Boch Charles Bestekset - 24-delig']]
+17:35:02.063 INFO - Executing: [is displayed: 34 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: img[alt='Villeroy & Boch Charles Bestekset - 24-delig']]])
+17:35:02.076 INFO - Done: [is displayed: 34 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: img[alt='Villeroy & Boch Charles Bestekset - 24-delig']]]
+17:35:02.079 INFO - Executing: [find element: By.cssSelector: img[alt='Villeroy & Boch Charles Bestekset - 24-delig']])
+17:35:02.086 INFO - Done: [find element: By.cssSelector: img[alt='Villeroy & Boch Charles Bestekset - 24-delig']]
+17:35:02.088 INFO - Executing: [click: 34 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: img[alt='Villeroy & Boch Charles Bestekset - 24-delig']]])
+17:35:02.180 INFO - Done: [click: 34 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: img[alt='Villeroy & Boch Charles Bestekset - 24-delig']]]
+17:35:04.185 INFO - Executing: [find elements: By.cssSelector: a.btn--buy.btn--lg])
+17:35:04.213 INFO - Done: [find elements: By.cssSelector: a.btn--buy.btn--lg]
+17:35:04.216 INFO - Executing: [is displayed: 35 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: a.btn--buy.btn--lg]])
+17:35:04.249 INFO - Done: [is displayed: 35 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: a.btn--buy.btn--lg]]
+17:35:04.257 INFO - Executing: [find element: By.cssSelector: a.btn--buy.btn--lg])
+17:35:04.264 INFO - Done: [find element: By.cssSelector: a.btn--buy.btn--lg]
+17:35:04.266 INFO - Executing: [click: 35 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: a.btn--buy.btn--lg]])
+17:35:04.467 INFO - Done: [click: 35 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: a.btn--buy.btn--lg]]
+17:35:06.476 INFO - Executing: [find elements: By.cssSelector: div.basket-popup.js_narrow_modal_window > div > div.fluid-grid__item > a])
+17:35:06.486 INFO - Done: [find elements: By.cssSelector: div.basket-popup.js_narrow_modal_window > div > div.fluid-grid__item > a]
+17:35:06.488 INFO - Executing: [is displayed: 36 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: div.basket-popup.js_narrow_modal_window > div > div.fluid-grid__item > a]])
+17:35:06.497 INFO - Done: [is displayed: 36 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: div.basket-popup.js_narrow_modal_window > div > div.fluid-grid__item > a]]
+17:35:06.500 INFO - Executing: [find element: By.cssSelector: div.basket-popup.js_narrow_modal_window > div > div.fluid-grid__item > a])
+17:35:06.507 INFO - Done: [find element: By.cssSelector: div.basket-popup.js_narrow_modal_window > div > div.fluid-grid__item > a]
+17:35:06.509 INFO - Executing: [click: 36 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: div.basket-popup.js_narrow_modal_window > div > div.fluid-grid__item > a]])
+17:35:06.608 INFO - Done: [click: 36 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: div.basket-popup.js_narrow_modal_window > div > div.fluid-grid__item > a]]
+17:35:08.620 INFO - Executing: [find elements: By.cssSelector: #navbar])
+17:35:08.635 INFO - Done: [find elements: By.cssSelector: #navbar]
+17:35:08.637 INFO - Executing: [is displayed: 37 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: #navbar]])
+17:35:08.647 INFO - Done: [is displayed: 37 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: #navbar]]
+17:35:08.651 INFO - Executing: [find element: By.cssSelector: #navbar])
+17:35:08.664 INFO - Done: [find element: By.cssSelector: #navbar]
+17:35:08.666 INFO - Executing: [get text: 37 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: #navbar]])
+17:35:08.696 INFO - Done: [get text: 37 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: #navbar]]
+17:35:08.699 INFO - Executing: [find elements: By.cssSelector: .h-bol-highlite-secundary-color])
+17:35:08.706 INFO - Done: [find elements: By.cssSelector: .h-bol-highlite-secundary-color]
+17:35:08.708 INFO - Executing: [is displayed: 38 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: .h-bol-highlite-secundary-color]])
+17:35:08.722 INFO - Done: [is displayed: 38 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: .h-bol-highlite-secundary-color]]
+17:35:08.724 INFO - Executing: [find element: By.cssSelector: .h-bol-highlite-secundary-color])
+17:35:08.737 INFO - Done: [find element: By.cssSelector: .h-bol-highlite-secundary-color]
+17:35:08.739 INFO - Executing: [get text: 38 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: .h-bol-highlite-secundary-color]])
+17:35:08.749 INFO - Done: [get text: 38 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: .h-bol-highlite-secundary-color]]
+17:35:08.752 INFO - Executing: [find elements: By.cssSelector: img[alt='Bestel nu en je bestelling wordt gratis verzonden']])
+17:35:08.767 INFO - Done: [find elements: By.cssSelector: img[alt='Bestel nu en je bestelling wordt gratis verzonden']]
+17:35:08.769 INFO - Executing: [is displayed: 39 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: img[alt='Bestel nu en je bestelling wordt gratis verzonden']]])
+17:35:08.778 INFO - Done: [is displayed: 39 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: img[alt='Bestel nu en je bestelling wordt gratis verzonden']]]
+17:35:08.781 INFO - Executing: [find elements: By.cssSelector: #tst_remove_from_basket])
+17:35:08.788 INFO - Done: [find elements: By.cssSelector: #tst_remove_from_basket]
+17:35:08.792 INFO - Executing: [is displayed: 40 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: #tst_remove_from_basket]])
+17:35:08.803 INFO - Done: [is displayed: 40 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: #tst_remove_from_basket]]
+17:35:08.806 INFO - Executing: [find element: By.cssSelector: #tst_remove_from_basket])
+17:35:08.812 INFO - Done: [find element: By.cssSelector: #tst_remove_from_basket]
+17:35:08.814 INFO - Executing: [click: 40 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: #tst_remove_from_basket]])
+17:35:09.396 INFO - Done: [click: 40 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: #tst_remove_from_basket]]
+17:35:11.405 INFO - Executing: [find elements: By.cssSelector: div.main > div > h2])
+17:35:11.413 INFO - Done: [find elements: By.cssSelector: div.main > div > h2]
+17:35:11.416 INFO - Executing: [is displayed: 41 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: div.main > div > h2]])
+17:35:11.424 INFO - Done: [is displayed: 41 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: div.main > div > h2]]
+17:35:11.427 INFO - Executing: [find element: By.cssSelector: div.main > div > h2])
+17:35:11.433 INFO - Done: [find element: By.cssSelector: div.main > div > h2]
+17:35:11.435 INFO - Executing: [get text: 41 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: div.main > div > h2]])
+17:35:11.442 INFO - Done: [get text: 41 [[FirefoxDriver: firefox on MAC (d1e59367-6bce-794c-8c80-c68b9eeacde1)] -> css selector: div.main > div > h2]]
+17:35:11.445 INFO - Executing: [delete session: fc12a3c0-fbf6-43fc-9622-c91eb6475510])
+17:35:11.647 INFO - Done: [delete session: fc12a3c0-fbf6-43fc-9622-c91eb6475510]
+17:35:11.694 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, elementScrollBehavior=1, name=Shipping Cost Paid Shipping, browserName=firefox, javascriptEnabled=true, platform=ANY}]])
+17:35:11.695 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, elementScrollBehavior=1, name=Shipping Cost Paid Shipping, browserName=firefox, javascriptEnabled=true, platform=ANY}]
+17:35:14.023 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, elementScrollBehavior=1, name=Shipping Cost Paid Shipping, browserName=firefox, javascriptEnabled=true, platform=ANY}]]
+17:35:14.028 INFO - Executing: [get: https://www.bol.com/])
+17:35:15.485 INFO - Done: [get: https://www.bol.com/]
+17:35:15.493 INFO - Executing: [find elements: By.cssSelector: body])
+17:35:15.975 INFO - Done: [find elements: By.cssSelector: body]
+17:35:15.977 INFO - Executing: [is displayed: 0 [[FirefoxDriver: firefox on MAC (493c771f-e6da-dd48-9098-8d89a3a1b60b)] -> css selector: body]])
+17:35:15.983 INFO - Done: [is displayed: 0 [[FirefoxDriver: firefox on MAC (493c771f-e6da-dd48-9098-8d89a3a1b60b)] -> css selector: body]]
+17:35:15.986 INFO - Executing: [find elements: By.cssSelector: head])
+17:35:15.994 INFO - Done: [find elements: By.cssSelector: head]
+17:35:15.997 INFO - Executing: [get title])
+17:35:16.003 INFO - Done: [get title]
+17:35:16.005 INFO - Executing: [find elements: By.cssSelector: .main-logo__link.omniture_main_logo])
+17:35:16.012 INFO - Done: [find elements: By.cssSelector: .main-logo__link.omniture_main_logo]
+17:35:16.014 INFO - Executing: [is displayed: 2 [[FirefoxDriver: firefox on MAC (493c771f-e6da-dd48-9098-8d89a3a1b60b)] -> css selector: .main-logo__link.omniture_main_logo]])
+17:35:16.035 INFO - Done: [is displayed: 2 [[FirefoxDriver: firefox on MAC (493c771f-e6da-dd48-9098-8d89a3a1b60b)] -> css selector: .main-logo__link.omniture_main_logo]]
+17:35:16.038 INFO - Executing: [find elements: By.cssSelector: #navbar_home])
+17:35:16.051 INFO - Done: [find elements: By.cssSelector: #navbar_home]
+17:35:16.055 INFO - Executing: [is displayed: 3 [[FirefoxDriver: firefox on MAC (493c771f-e6da-dd48-9098-8d89a3a1b60b)] -> css selector: #navbar_home]])
+17:35:16.066 INFO - Done: [is displayed: 3 [[FirefoxDriver: firefox on MAC (493c771f-e6da-dd48-9098-8d89a3a1b60b)] -> css selector: #navbar_home]]
+17:35:16.070 INFO - Executing: [find element: By.cssSelector: #navbar_home])
+17:35:16.084 INFO - Done: [find element: By.cssSelector: #navbar_home]
+17:35:16.092 INFO - Executing: [get text: 3 [[FirefoxDriver: firefox on MAC (493c771f-e6da-dd48-9098-8d89a3a1b60b)] -> css selector: #navbar_home]])
+17:35:16.146 INFO - Done: [get text: 3 [[FirefoxDriver: firefox on MAC (493c771f-e6da-dd48-9098-8d89a3a1b60b)] -> css selector: #navbar_home]]
+17:35:16.150 INFO - Executing: [find elements: By.cssSelector: #searchfor])
+17:35:16.159 INFO - Done: [find elements: By.cssSelector: #searchfor]
+17:35:16.161 INFO - Executing: [is displayed: 4 [[FirefoxDriver: firefox on MAC (493c771f-e6da-dd48-9098-8d89a3a1b60b)] -> css selector: #searchfor]])
+17:35:16.173 INFO - Done: [is displayed: 4 [[FirefoxDriver: firefox on MAC (493c771f-e6da-dd48-9098-8d89a3a1b60b)] -> css selector: #searchfor]]
+17:35:16.176 INFO - Executing: [find element: By.cssSelector: #searchfor])
+17:35:16.187 INFO - Done: [find element: By.cssSelector: #searchfor]
+17:35:16.194 INFO - Executing: [send keys: 4 [[FirefoxDriver: firefox on MAC (493c771f-e6da-dd48-9098-8d89a3a1b60b)] -> css selector: #searchfor], [S, T, A, B, I, L, O,  , B, O, S, S,  , O, R, I, G, I, N, A, L,  , M, a, r, k, e, e, r, s, t, i, f, t, e, n,  , -,  , 1, 0,  , S, t, u, k, s,  , -,  , L, a, v, e, n, d, e, l]])
+17:35:16.480 INFO - Done: [send keys: 4 [[FirefoxDriver: firefox on MAC (493c771f-e6da-dd48-9098-8d89a3a1b60b)] -> css selector: #searchfor], [S, T, A, B, I, L, O,  , B, O, S, S,  , O, R, I, G, I, N, A, L,  , M, a, r, k, e, e, r, s, t, i, f, t, e, n,  , -,  , 1, 0,  , S, t, u, k, s,  , -,  , L, a, v, e, n, d, e, l]]
+17:35:16.483 INFO - Executing: [find elements: By.cssSelector: .search-btn.large--is-visible.small_details.tst_headerSearchButton])
+17:35:16.636 INFO - Done: [find elements: By.cssSelector: .search-btn.large--is-visible.small_details.tst_headerSearchButton]
+17:35:16.640 INFO - Executing: [is displayed: 5 [[FirefoxDriver: firefox on MAC (493c771f-e6da-dd48-9098-8d89a3a1b60b)] -> css selector: .search-btn.large--is-visible.small_details.tst_headerSearchButton]])
+17:35:16.650 INFO - Done: [is displayed: 5 [[FirefoxDriver: firefox on MAC (493c771f-e6da-dd48-9098-8d89a3a1b60b)] -> css selector: .search-btn.large--is-visible.small_details.tst_headerSearchButton]]
+17:35:16.653 INFO - Executing: [find element: By.cssSelector: .search-btn.large--is-visible.small_details.tst_headerSearchButton])
+17:35:16.664 INFO - Done: [find element: By.cssSelector: .search-btn.large--is-visible.small_details.tst_headerSearchButton]
+17:35:16.666 INFO - Executing: [click: 5 [[FirefoxDriver: firefox on MAC (493c771f-e6da-dd48-9098-8d89a3a1b60b)] -> css selector: .search-btn.large--is-visible.small_details.tst_headerSearchButton]])
+17:35:17.472 INFO - Done: [click: 5 [[FirefoxDriver: firefox on MAC (493c771f-e6da-dd48-9098-8d89a3a1b60b)] -> css selector: .search-btn.large--is-visible.small_details.tst_headerSearchButton]]
+17:35:19.482 INFO - Executing: [find elements: By.cssSelector: img[alt='STABILO BOSS ORIGINAL Markeerstiften - 10 Stuks - Lavendel']])
+17:35:19.489 INFO - Done: [find elements: By.cssSelector: img[alt='STABILO BOSS ORIGINAL Markeerstiften - 10 Stuks - Lavendel']]
+17:35:19.492 INFO - Executing: [is displayed: 6 [[FirefoxDriver: firefox on MAC (493c771f-e6da-dd48-9098-8d89a3a1b60b)] -> css selector: img[alt='STABILO BOSS ORIGINAL Markeerstiften - 10 Stuks - Lavendel']]])
+17:35:19.502 INFO - Done: [is displayed: 6 [[FirefoxDriver: firefox on MAC (493c771f-e6da-dd48-9098-8d89a3a1b60b)] -> css selector: img[alt='STABILO BOSS ORIGINAL Markeerstiften - 10 Stuks - Lavendel']]]
+17:35:19.504 INFO - Executing: [find element: By.cssSelector: img[alt='STABILO BOSS ORIGINAL Markeerstiften - 10 Stuks - Lavendel']])
+17:35:19.510 INFO - Done: [find element: By.cssSelector: img[alt='STABILO BOSS ORIGINAL Markeerstiften - 10 Stuks - Lavendel']]
+17:35:19.512 INFO - Executing: [click: 6 [[FirefoxDriver: firefox on MAC (493c771f-e6da-dd48-9098-8d89a3a1b60b)] -> css selector: img[alt='STABILO BOSS ORIGINAL Markeerstiften - 10 Stuks - Lavendel']]])
+17:35:19.597 INFO - Done: [click: 6 [[FirefoxDriver: firefox on MAC (493c771f-e6da-dd48-9098-8d89a3a1b60b)] -> css selector: img[alt='STABILO BOSS ORIGINAL Markeerstiften - 10 Stuks - Lavendel']]]
+17:35:21.600 INFO - Executing: [find elements: By.cssSelector: a.btn--buy.btn--lg])
+17:35:23.300 INFO - Done: [find elements: By.cssSelector: a.btn--buy.btn--lg]
+17:35:23.302 INFO - Executing: [is displayed: 7 [[FirefoxDriver: firefox on MAC (493c771f-e6da-dd48-9098-8d89a3a1b60b)] -> css selector: a.btn--buy.btn--lg]])
+17:35:23.314 INFO - Done: [is displayed: 7 [[FirefoxDriver: firefox on MAC (493c771f-e6da-dd48-9098-8d89a3a1b60b)] -> css selector: a.btn--buy.btn--lg]]
+17:35:23.317 INFO - Executing: [find element: By.cssSelector: a.btn--buy.btn--lg])
+17:35:23.323 INFO - Done: [find element: By.cssSelector: a.btn--buy.btn--lg]
+17:35:23.325 INFO - Executing: [click: 7 [[FirefoxDriver: firefox on MAC (493c771f-e6da-dd48-9098-8d89a3a1b60b)] -> css selector: a.btn--buy.btn--lg]])
+17:35:23.515 INFO - Done: [click: 7 [[FirefoxDriver: firefox on MAC (493c771f-e6da-dd48-9098-8d89a3a1b60b)] -> css selector: a.btn--buy.btn--lg]]
+17:35:25.523 INFO - Executing: [find elements: By.cssSelector: .h-bottom--m])
+17:35:25.532 INFO - Done: [find elements: By.cssSelector: .h-bottom--m]
+17:35:25.534 INFO - Executing: [is displayed: 8 [[FirefoxDriver: firefox on MAC (493c771f-e6da-dd48-9098-8d89a3a1b60b)] -> css selector: .h-bottom--m]])
+17:35:25.544 INFO - Done: [is displayed: 8 [[FirefoxDriver: firefox on MAC (493c771f-e6da-dd48-9098-8d89a3a1b60b)] -> css selector: .h-bottom--m]]
+17:35:25.547 INFO - Executing: [find element: By.cssSelector: .h-bottom--m])
+17:35:25.557 INFO - Done: [find element: By.cssSelector: .h-bottom--m]
+17:35:25.559 INFO - Executing: [get text: 8 [[FirefoxDriver: firefox on MAC (493c771f-e6da-dd48-9098-8d89a3a1b60b)] -> css selector: .h-bottom--m]])
+17:35:25.570 INFO - Done: [get text: 8 [[FirefoxDriver: firefox on MAC (493c771f-e6da-dd48-9098-8d89a3a1b60b)] -> css selector: .h-bottom--m]]
+17:35:25.573 INFO - Executing: [find elements: By.cssSelector: div.basket-popup.js_narrow_modal_window > div > div.fluid-grid__item > a])
+17:35:25.585 INFO - Done: [find elements: By.cssSelector: div.basket-popup.js_narrow_modal_window > div > div.fluid-grid__item > a]
+17:35:25.589 INFO - Executing: [is displayed: 9 [[FirefoxDriver: firefox on MAC (493c771f-e6da-dd48-9098-8d89a3a1b60b)] -> css selector: div.basket-popup.js_narrow_modal_window > div > div.fluid-grid__item > a]])
+17:35:25.601 INFO - Done: [is displayed: 9 [[FirefoxDriver: firefox on MAC (493c771f-e6da-dd48-9098-8d89a3a1b60b)] -> css selector: div.basket-popup.js_narrow_modal_window > div > div.fluid-grid__item > a]]
+17:35:25.604 INFO - Executing: [find element: By.cssSelector: div.basket-popup.js_narrow_modal_window > div > div.fluid-grid__item > a])
+17:35:25.615 INFO - Done: [find element: By.cssSelector: div.basket-popup.js_narrow_modal_window > div > div.fluid-grid__item > a]
+17:35:25.617 INFO - Executing: [click: 9 [[FirefoxDriver: firefox on MAC (493c771f-e6da-dd48-9098-8d89a3a1b60b)] -> css selector: div.basket-popup.js_narrow_modal_window > div > div.fluid-grid__item > a]])
+17:35:26.463 INFO - Done: [click: 9 [[FirefoxDriver: firefox on MAC (493c771f-e6da-dd48-9098-8d89a3a1b60b)] -> css selector: div.basket-popup.js_narrow_modal_window > div > div.fluid-grid__item > a]]
+17:35:28.472 INFO - Executing: [find elements: By.cssSelector: #navbar])
+17:35:28.480 INFO - Done: [find elements: By.cssSelector: #navbar]
+17:35:28.482 INFO - Executing: [is displayed: 10 [[FirefoxDriver: firefox on MAC (493c771f-e6da-dd48-9098-8d89a3a1b60b)] -> css selector: #navbar]])
+17:35:28.489 INFO - Done: [is displayed: 10 [[FirefoxDriver: firefox on MAC (493c771f-e6da-dd48-9098-8d89a3a1b60b)] -> css selector: #navbar]]
+17:35:28.492 INFO - Executing: [find element: By.cssSelector: #navbar])
+17:35:28.497 INFO - Done: [find element: By.cssSelector: #navbar]
+17:35:28.499 INFO - Executing: [get text: 10 [[FirefoxDriver: firefox on MAC (493c771f-e6da-dd48-9098-8d89a3a1b60b)] -> css selector: #navbar]])
+17:35:28.523 INFO - Done: [get text: 10 [[FirefoxDriver: firefox on MAC (493c771f-e6da-dd48-9098-8d89a3a1b60b)] -> css selector: #navbar]]
+17:35:28.532 INFO - Executing: [find elements: By.cssSelector: #tst_shipping_costs])
+17:35:28.541 INFO - Done: [find elements: By.cssSelector: #tst_shipping_costs]
+17:35:28.544 INFO - Executing: [is displayed: 11 [[FirefoxDriver: firefox on MAC (493c771f-e6da-dd48-9098-8d89a3a1b60b)] -> css selector: #tst_shipping_costs]])
+17:35:28.556 INFO - Done: [is displayed: 11 [[FirefoxDriver: firefox on MAC (493c771f-e6da-dd48-9098-8d89a3a1b60b)] -> css selector: #tst_shipping_costs]]
+17:35:28.561 INFO - Executing: [find element: By.cssSelector: #tst_shipping_costs])
+17:35:28.567 INFO - Done: [find element: By.cssSelector: #tst_shipping_costs]
+17:35:28.569 INFO - Executing: [get text: 11 [[FirefoxDriver: firefox on MAC (493c771f-e6da-dd48-9098-8d89a3a1b60b)] -> css selector: #tst_shipping_costs]])
+17:35:28.589 INFO - Done: [get text: 11 [[FirefoxDriver: firefox on MAC (493c771f-e6da-dd48-9098-8d89a3a1b60b)] -> css selector: #tst_shipping_costs]]
+17:35:28.592 INFO - Executing: [find elements: By.cssSelector: img[alt='Vanaf 20 euro wordt je bestelling gratis verzonden']])
+17:35:28.599 INFO - Done: [find elements: By.cssSelector: img[alt='Vanaf 20 euro wordt je bestelling gratis verzonden']]
+17:35:28.601 INFO - Executing: [is displayed: 12 [[FirefoxDriver: firefox on MAC (493c771f-e6da-dd48-9098-8d89a3a1b60b)] -> css selector: img[alt='Vanaf 20 euro wordt je bestelling gratis verzonden']]])
+17:35:28.614 INFO - Done: [is displayed: 12 [[FirefoxDriver: firefox on MAC (493c771f-e6da-dd48-9098-8d89a3a1b60b)] -> css selector: img[alt='Vanaf 20 euro wordt je bestelling gratis verzonden']]]
+17:35:28.617 INFO - Executing: [find elements: By.cssSelector: .h-bol-corporate-primary-color])
+17:35:28.622 INFO - Done: [find elements: By.cssSelector: .h-bol-corporate-primary-color]
+17:35:28.624 INFO - Executing: [is displayed: 13 [[FirefoxDriver: firefox on MAC (493c771f-e6da-dd48-9098-8d89a3a1b60b)] -> css selector: .h-bol-corporate-primary-color]])
+17:35:28.634 INFO - Done: [is displayed: 13 [[FirefoxDriver: firefox on MAC (493c771f-e6da-dd48-9098-8d89a3a1b60b)] -> css selector: .h-bol-corporate-primary-color]]
+17:35:28.637 INFO - Executing: [find element: By.cssSelector: .h-bol-corporate-primary-color])
+17:35:28.650 INFO - Done: [find element: By.cssSelector: .h-bol-corporate-primary-color]
+17:35:28.653 INFO - Executing: [get text: 13 [[FirefoxDriver: firefox on MAC (493c771f-e6da-dd48-9098-8d89a3a1b60b)] -> css selector: .h-bol-corporate-primary-color]])
+17:35:28.668 INFO - Done: [get text: 13 [[FirefoxDriver: firefox on MAC (493c771f-e6da-dd48-9098-8d89a3a1b60b)] -> css selector: .h-bol-corporate-primary-color]]
+17:35:28.672 INFO - Executing: [find elements: By.cssSelector: #tst_remove_from_basket])
+17:35:28.679 INFO - Done: [find elements: By.cssSelector: #tst_remove_from_basket]
+17:35:28.681 INFO - Executing: [is displayed: 14 [[FirefoxDriver: firefox on MAC (493c771f-e6da-dd48-9098-8d89a3a1b60b)] -> css selector: #tst_remove_from_basket]])
+17:35:28.689 INFO - Done: [is displayed: 14 [[FirefoxDriver: firefox on MAC (493c771f-e6da-dd48-9098-8d89a3a1b60b)] -> css selector: #tst_remove_from_basket]]
+17:35:28.691 INFO - Executing: [find element: By.cssSelector: #tst_remove_from_basket])
+17:35:28.704 INFO - Done: [find element: By.cssSelector: #tst_remove_from_basket]
+17:35:28.709 INFO - Executing: [click: 14 [[FirefoxDriver: firefox on MAC (493c771f-e6da-dd48-9098-8d89a3a1b60b)] -> css selector: #tst_remove_from_basket]])
+17:35:29.354 INFO - Done: [click: 14 [[FirefoxDriver: firefox on MAC (493c771f-e6da-dd48-9098-8d89a3a1b60b)] -> css selector: #tst_remove_from_basket]]
+17:35:31.362 INFO - Executing: [find elements: By.cssSelector: div.main > div > h2])
+17:35:31.369 INFO - Done: [find elements: By.cssSelector: div.main > div > h2]
+17:35:31.372 INFO - Executing: [is displayed: 15 [[FirefoxDriver: firefox on MAC (493c771f-e6da-dd48-9098-8d89a3a1b60b)] -> css selector: div.main > div > h2]])
+17:35:31.378 INFO - Done: [is displayed: 15 [[FirefoxDriver: firefox on MAC (493c771f-e6da-dd48-9098-8d89a3a1b60b)] -> css selector: div.main > div > h2]]
+17:35:31.381 INFO - Executing: [find element: By.cssSelector: div.main > div > h2])
+17:35:31.387 INFO - Done: [find element: By.cssSelector: div.main > div > h2]
+17:35:31.389 INFO - Executing: [get text: 15 [[FirefoxDriver: firefox on MAC (493c771f-e6da-dd48-9098-8d89a3a1b60b)] -> css selector: div.main > div > h2]])
+17:35:31.395 INFO - Done: [get text: 15 [[FirefoxDriver: firefox on MAC (493c771f-e6da-dd48-9098-8d89a3a1b60b)] -> css selector: div.main > div > h2]]
+17:35:31.397 INFO - Executing: [delete session: 1feb32cc-1abc-4d29-8c29-dc1fb0eaee4f])
+17:35:31.574 INFO - Done: [delete session: 1feb32cc-1abc-4d29-8c29-dc1fb0eaee4f]

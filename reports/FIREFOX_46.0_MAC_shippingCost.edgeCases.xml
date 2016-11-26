@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="2">
+
+  <testsuite name="shippingCost.edgeCases"
+    errors="0" failures="0" hostname="" id="" package="shippingCost.edgeCases" skipped="0"
+    tests="2" time="38.99" timestamp="Sat, 26 Nov 2016 16:33:43 GMT">
+  
+    <testcase name="Bol.com - orders a little under EUR 20,00" time="20.30" assertions="21">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Bol.com - orders over EUR 20,00 and changing countries" time="18.69" assertions="20">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>
